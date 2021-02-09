@@ -1,0 +1,13 @@
+{
+	"RUNDECKSERVER": "rpi2server.fritz.box",
+	"PORT": 4440,
+	"SSL": false,
+	"API_KEY": "Wk8wj9FFsN64AH5zH8eKn7U6QDNjOvaV",
+	"API_VERSION": "29",
+	"PAGE_SIZE": 30,
+	"MAXIMUM_DAYS": 0,
+	"TIMEOUT": 60,
+	"DELETE_TIMEOUT": 1200,
+	"MAX_DELETE": 5000,
+	"VERBOSE": false
+}
