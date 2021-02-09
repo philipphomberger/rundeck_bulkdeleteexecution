@@ -5,6 +5,7 @@ import json
 import sys
 
 # API call to delete an execution by ID
+# https://docs.rundeck.com/docs/api/rundeck-api.html#delete-an-execution
 def delete_execution(execution_id):
     global PROPERTIES
     global HEADERS
@@ -16,6 +17,7 @@ def delete_execution(execution_id):
 
 
 # API call to bulk delete executions by ID
+# https://docs.rundeck.com/docs/api/rundeck-api.html#bulk-delete-executions
 def delete_executions():
     werte = list(range(0, 5500))
     global PROPERTIES
